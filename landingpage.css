@@ -11,38 +11,21 @@
     --link-color: rgba(0, 0, 0, 0.623);
     
     --btn-hover: #0662b3;
+    --paragraph-color: rgba(53, 53, 53, 0.952);
+    --body-background: #F7F7F7;
+    --footer-background: rgba(0, 0, 0, 0.082);
 }
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: var(--body-background);
 }
 
 html{
     scroll-behavior: smooth;
-    font-size: 80%;
+    font-size: 67%;
 }
 
-.paragraph{
-    font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.btn{
-    font-weight: 500;
-    font-size: 1.3rem;
-    padding: .8em 1.5em;
-    border-radius: 3px;
-    border: none;
-    transition: 0.3s all;
-    cursor: pointer;
-}
-.btn-primary{
-    background-color: var(--primary-color);
-    color: #fff;
-}
-.btn-primary:hover{
-    background-color: var(--btn-hover);
-}
 /*======Nav====*/
 
 .nav{
@@ -53,23 +36,10 @@ html{
     padding: 1em 1.5em;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
-.lists{
-    list-style-type: none;
-}
-.links{
-    text-decoration: none;
-    color: var(--link-color);
-    font-weight: 600;
-    font-size: 1.2rem;
-    transition: 0.3s all;
-}
-.links:hover{
-    color: var(--primary-color);
-}
+
 .logo-title{
     color: var(--primary-color);
     font-size: 2.5rem;
-    
 }
 
 .nav-menu ul li{
@@ -85,20 +55,20 @@ html{
     align-items: center;
 }
 .hero-container{
-    height: 500px;
+    height: 400px;
+    margin: 0 10px;
 }
 .hero-content{
     text-align: center;
-    width: 650px;
+    max-width: 650px;
     padding: 10px;
 }
 .hero-content .paragraph{
     font-size: 1.9rem;
     margin: 5px 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .hero-title{
-    font-size: 4rem;
+    font-size: 2.9rem;
     line-height: 1.22em;
     font-weight: 900;
 }
@@ -106,46 +76,47 @@ html{
     margin-top: 25px;
 }
 
-@media screen and (max-width: 876px){
+@media screen and (min-width: 768px){
     html{
-        font-size: 67%;
+        font-size: 77%;
     }
     .container{
-        padding: 0rem 0rem;  
+        padding: 4em 0rem;  
     }
 
     .hero-container{
-        height: 400px;
-        margin: 0 10px;
+        height: 550px;
+        
     }
     .hero-title{
-        font-size: 2.7rem;
+        font-size: 4rem;
     }
 }
 
 /*=======Installation Section =======*/
 .installation-section{
     display: block;
-    margin: 0 30px;
-    padding: 1.9em 0.5em 2.3em 0.5em;
+    margin: 0 10%;
+    padding: 1.9em 0.5em 9em 0.5em;
 }
-.section-headings{
-    font-size: 2.2rem;
-}
-
+ 
 .installation-container{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
-    padding: 20px;
+    grid-gap: 10px;  
 }
 .installation-container div{
-    padding: 1.3em;
+    padding: 2em;
+    border-radius: 10px;
+    background-color: #fff;
 }
 .installation-box1 .paragraph{
     margin: 10px 0;
 }
- 
+
+.documentation-btn{
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 876px){
     .installation-section{
@@ -169,17 +140,16 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 1.8em;
-    background-color: var(--border-color);
+    background-color: var(--footer-background);
 }
 footer .paragraph{
     font-size: medium;
-    font-weight: 500;
+    font-weight: bold;
 }
 footer ul li{
     display: inline-block;
     margin-right: 15px;
 }
 footer .links{
-    font-size: 1.4rem;
-
+    font-size: 1.6rem;
 }
