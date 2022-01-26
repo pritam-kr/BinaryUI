@@ -14,6 +14,7 @@
     --paragraph-color: rgba(53, 53, 53, 0.952);
     --body-background: #F7F7F7;
     --footer-background: rgba(0, 0, 0, 0.082);
+    --headings-color: #282828;
 }
 
 body{
@@ -71,6 +72,7 @@ html{
     font-size: 2.9rem;
     line-height: 1.22em;
     font-weight: 900;
+    color: #282828;
 }
 .hero-btn{
     margin-top: 25px;
