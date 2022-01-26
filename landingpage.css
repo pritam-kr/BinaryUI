@@ -43,11 +43,16 @@ html{
     font-size: 2.5rem;
 }
 
-.nav-menu ul li{
+.nav-menu ul li {
     display: inline-block;
     margin: 0 1em 0 0;
+    
+}
+.nav-menu li a{
+    font-size: 1.5rem;
 }
 
+ 
 /*=====Hero Section ===*/
 
 .container{
@@ -65,7 +70,7 @@ html{
     padding: 10px;
 }
 .hero-content .paragraph{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     margin: 5px 0;
 }
 .hero-title{
@@ -92,6 +97,10 @@ html{
     }
     .hero-title{
         font-size: 4rem;
+    }
+
+    .hero-content .paragraph{
+        font-size: 1.9rem;
     }
 }
 
@@ -120,6 +129,19 @@ html{
     margin-top: 20px;
 }
 
+.installation-box2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    /* overflow-y: scroll; */
+}
+.installation-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 @media screen and (max-width: 876px){
     .installation-section{
         margin: 0 5px;
@@ -128,6 +150,9 @@ html{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         padding: 0;
+    }
+    .installation-container div{
+        padding: 1.3em;
     }
     .installation-box1 .paragraph{
         font-size: 1.5rem;
