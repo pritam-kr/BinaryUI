@@ -55,6 +55,9 @@
   border-radius: 10px;
 }
 
- 
+.version {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
 
- 
