@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Component Library" />
     <meta name="author" content="Pritam Kumar" />
 
     <!--Font awesome CDN link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 
     <!--Google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,10 +19,10 @@
         rel="stylesheet" />
 
     <!--For paragraph font family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
 
     <!-- <link rel="stylesheet" href="./commoncss/nav.css">
     <link rel="stylesheet" href="./commoncss/scrollbar.css">
@@ -30,65 +30,166 @@
     <link rel="stylesheet" href="landingpage.css">
     <link rel="stylesheet" href="./docscss/docs.css"> -->
 
-    <link rel="stylesheet" href="./docscss/main.css">
-
-
+    <link rel="stylesheet" href="./docscss/main.css" />
     <title>Documentation - BinaryUI</title>
 </head>
 
 <body>
-
     <div class="docs-container">
+        <!--Sidebar start-->
         <div class="sidebar">
             <header class="sibebar-header">
                 <h3 class="logo-title">BinaryUI<sub class="version">v1.0</sub></h3>
             </header>
-
             <!--Sidebar component links-->
-
             <main class="sidebar-menu">
                 <ul>
-                    <li class="lists"><a href="" class="links components-links">Alert</a></li>
-                    <li class="lists"><a href="" class="links components-links">Avatar</a></li>
-                    <li class="lists"><a href="" class="links components-links">Badge</a></li>
-                    <li class="lists"><a href="" class="links components-links">Button</a></li>
-                    <li class="lists"><a href="" class="links components-links">Card</a></li>
-                    <li class="lists"><a href="" class="links components-links">Image</a></li>
-                    <li class="lists"><a href="" class="links components-links">Input</a></li>
-                    <li class="lists"><a href="" class="links components-links">Text Utilities</a></li>
-                    <li class="lists"><a href="" class="links components-links">Lists</a></li>
-                    <li class="lists"><a href="" class="links components-links">Modal</a></li>
-                    <li class="lists"><a href="" class="links components-links">Rating (for eCommerce)</a></li>
-                    <li class="lists"><a href="" class="links components-links">Toast/Notify/Snackbar</a></li>
-                    <li class="lists"><a href="" class="links components-links">Simplified Grid layout</a></li>
+                    <li class="lists">
+                        <a href="#alert" class="links components-links">Alert</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Avatar</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Badge</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Button</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Card</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Image</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Input</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Text Utilities</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Lists</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Modal</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Rating (for eCommerce)</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Toast/Notify/Snackbar</a>
+                    </li>
+                    <li class="lists">
+                        <a href="" class="links components-links">Simplified Grid layout</a>
+                    </li>
                 </ul>
             </main>
-
         </div>
+        <!--Sidebar end-->
+
         <div class="mainbar">
             <header class="topbar">
                 <ul>
-                    <li class="lists"><a href="#" target="_balnk" class="links"><i
-                                class="fab fa-github site-icon github-icon"></i> <i
-                                class="fas fa-bars site-icon hangburger-icon"></i></a>
+                    <li class="lists">
+                        <a href="#" target="_balnk" class="links"><i class="fab fa-github site-icon github-icon"></i>
+                            <i class="fas fa-bars site-icon hangburger-icon"></i></a>
                     </li>
                 </ul>
             </header>
 
+            <!--Start component container-->
+            <main class="component-container">
+                <!--component alert start-->
+                <div class="component component-alert" id="alert">
+                    <h1 class="large-headings component-title">Alerts</h1>
 
+                    <!--About component-->
+                    <p class="paragraph about-component">
+                        Alerts component provides important message to attract users
+                        attention without any interrupting.
+                    </p>
+
+                    <h2 class="component-subtitle">Example of Alerts</h2>
+
+                    <!--About how to use this component-->
+                    <p class="paragraph component-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Repudiandae inventore veritatis alias autem rem esse quas, dolorum
+                        ratione distinctio modi.
+                    </p>
+
+                    <!-- component Display-->
+                    <div class="component-display">
+                        <!--component extra things adon-->
+                        <div class="component-tools">
+                            <a href="#" target="_blank" class="links"><i class="fab fa-github site-icon"></i>
+                            </a>
+                            <a href="#" target="_blank" class="links"><i class="fas fa-globe-asia site-icon"></i></a>
+                        </div>
+                        <div class="alert primary-alert space-between">
+                            <p>Primary Alerts</p>
+                        </div>
+
+                        <div class="alert successfull-alert space-between">
+                            <p>
+                                <i class="fas fa-check-circle component-icons"></i>
+                                Successfull Alert
+                            </p>
+                        </div>
+
+                        <div class="alert danger-alert space-between">
+                            <p>
+                                <i class="fas fa-skull-crossbones component-icons"></i> Danger
+                                Alert
+                            </p>
+                        </div>
+
+                        <div class="alert warning-alert space-between">
+                            <p>
+                                <i class="fas fa-exclamation-triangle component-icons"></i>
+                                Warning Alert
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Display Code snippest to copy users -->
+                    <div class="snippets-display">
+                        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520primary-alert%2522%253E%253Cp%253EPrimary%2520Alerts%253C%252Fp%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520successfull-alert%2522%253E%250A%2509%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520Successfull%2520Alert%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520danger-alert%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%2520Danger%2520Alert%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520Warning%2520Alert%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 100%; height: 267px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+                <!--component alert end-->
+
+            </main>
+            <!--End component container-->
 
             <footer class="footer">
-                <p class="paragraph">Code By Pritam </p>
+                <p class="paragraph">Code By Pritam</p>
                 <ul>
-                    <li class="lists"><a href="" target="_blank" class="links"><i class="fab fa-twitter"></i></a></li>
-                    <li class="lists"><a href="" target="_blank" class="links"><i class="fab fa-linkedin"></i></a></li>
-                    <li class="lists"><a href="" target="_blank" class="links"><i class="fab fa-instagram"></i></a></li>
-                    <li class="lists"><a href="" target="_blank" class="links"><i class="fab fa-github"></i></a></li>
+                    <li class="lists">
+                        <a href="" target="_blank" class="links"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="lists">
+                        <a href="" target="_blank" class="links"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="lists">
+                        <a href="" target="_blank" class="links"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="lists">
+                        <a href="" target="_blank" class="links"><i class="fab fa-github"></i></a>
+                    </li>
                 </ul>
             </footer>
         </div>
     </div>
-
 </body>
 
 </html>
+
+<!-- <span class=" link-text">check it
+    out!</span> -->
