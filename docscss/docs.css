@@ -1,3 +1,5 @@
+@import url(../components/CDN.css);
+
 .docs-container {
   display: flex;
 }
@@ -9,12 +11,13 @@
   left: 0;
   height: 100%  ;
   border: 1px solid var(--border-color);
+  background-color: rgba(0, 0, 0, 0.034);
   transition: 0.3s all;
 }
 
 @media screen and (max-width: 976px){
     .sidebar{
-        margin-left: -260px;
+        left: -260px;
     }
 }
 
@@ -97,3 +100,79 @@
     }
     
   }
+
+
+/*=========================*/
+/* CSS for a single component */
+/*=========================*/
+
+.component-container{
+  padding: 1em;
+  margin: 5px;
+}
+
+.component{
+  padding: 0 1.5em 2em 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.component-title{
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  /* width: fit-content;
+  border-bottom: 1px solid var(--border-color); */
+}
+.component-subtitle{
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.component-description{
+  margin-bottom: 15px;
+}
+
+.about-component{
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.component-tools {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  width: max-content;
+}
+.component-tools i{
+  font-size: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.component-display{
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 15px 0;
+
+}
+
+.snippets-display{
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.snippets-display iframe{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.component-icons{
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
