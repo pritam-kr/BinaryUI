@@ -1,0 +1,53 @@
+.component-avatar{
+    margin-top: 2em;
+}
+
+.avatar-wrapper{
+    display: flex;
+     flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.avatar{
+    width: 12rem;
+    height: 12rem;
+    margin-right: 10px;
+}
+.avatar-ex-lagre{
+    width: 12rem;
+    height: 12rem;
+}
+.avatar-large{
+    width: 10rem;
+    height: 10rem;
+}
+.avatar-medium{
+    width: 8rem;
+    height: 8rem;
+}
+.avatar-small{
+    width: 6rem;
+    height: 6rem;
+}
+.avatar-ex-small{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+.text-avatar-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.text-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 2rem;
+     color: #fff;
+    background-color: var(--primary-color);
+}
