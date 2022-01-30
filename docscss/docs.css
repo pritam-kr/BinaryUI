@@ -1,38 +1,38 @@
 @import url(../components/CDN.css);
-
 .docs-container {
-  display: flex;
+    display: flex;
 }
 
 .sidebar {
-  width: 260px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%  ;
-  border: 1px solid var(--border-color);
-  background-color: rgba(0, 0, 0, 0.034);
-  transition: 0.3s all;
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border: 1px solid var(--border-color);
+    background-color: rgba(0, 0, 0, 0.034);
+    transition: 0.1s all;
 }
 
-@media screen and (max-width: 976px){
-    .sidebar{
+@media screen and (max-width: 976px) {
+    .sidebar {
         left: -260px;
     }
 }
 
-.sibebar-header{
+.sibebar-header {
     text-align: center;
     margin: 0px 0;
     padding: .66em 1.2em;
     border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
 }
 
-.sidebar-menu{
+.sidebar-menu {
     padding: 0.7em 1.2em;
 }
-.sidebar-menu .lists{
+
+.sidebar-menu .lists {
     font-family: "Open Sans", sans-serif;
     /* border-bottom: 1px solid var(--border-color); */
     padding: .6rem 0.5rem;
@@ -41,139 +41,139 @@
     border-radius: 5px;
 }
 
-.sidebar-menu .lists:hover{
+.sidebar-menu .lists:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.096);
     border-radius: 5px;
     margin-left: 5px;
 }
 
-.components-links{
+.components-links {
     font-size: 1.4rem;
     display: block;
     color: var(--headings-color);
 }
+
 .mainbar {
-  margin-left: 260px;
-  width: 100%;
-  transition: 0.3s all;
+    margin-left: 260px;
+    width: 100%;
+    transition: 0.1s all;
 }
 
-@media screen and (max-width: 976px){
-    .mainbar{
+@media screen and (max-width: 976px) {
+    .mainbar {
         margin-left: 0px;
     }
 }
 
 .topbar {
-  padding: 1.7em 1.4em;
-  border-bottom: 1px solid var(--border-color);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    padding: 1.7em 1.4em;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
 }
 
-.topbar .site-icon{
+.topbar .site-icon {
     font-size: 1.7rem;
 }
 
-
-
-.github-icon{
+.github-icon {
     display: none;
-  }
-  
-  
-  @media screen and (min-width: 976px) {
+}
 
-
-    .hangburger-icon{
-      display: none;
+@media screen and (min-width: 976px) {
+    .hangburger-icon {
+        display: none;
     }
-    .github-icon{
-      display: block;
+    .github-icon {
+        display: block;
     }
-
-    .topbar{
+    .topbar {
         justify-content: flex-end;
     }
-    
-  }
+}
 
 
 /*=========================*/
+
+
 /* CSS for a single component */
+
+
 /*=========================*/
 
-.component-container{
-  padding: 1em;
-  margin: 5px;
+.component-container {
+    padding: 1em;
+    margin: 5px;
 }
 
-.component{
-  padding: 0 1.5em 2em 0;
-  border-bottom: 1px solid var(--border-color);
+.component {
+    padding: 0 1.5em 2em 0;
+    border-bottom: 1px solid var(--border-color);
 }
 
-.component-title{
-  font-size: 2.8rem;
-  margin-bottom: 15px;
-  /* width: fit-content;
+.component-title {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    /* width: fit-content;
   border-bottom: 1px solid var(--border-color); */
 }
-.component-subtitle{
-  font-size: 2rem;
-  margin-bottom: 15px;
+
+.component-subtitle {
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
-.component-description{
-  margin-bottom: 15px;
+.component-description {
+    margin-bottom: 15px;
 }
 
-.about-component{
-  font-size: 1.7rem;
-  font-weight: 400;
-  margin-bottom: 10px;
+.about-component {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
+
 .component-tools {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-bottom: 10px;
-  width: max-content;
-}
-.component-tools i{
-  font-size: 1.5rem;
-  margin-right: 10px;
-  cursor: pointer;
-}
-.component-display{
-  border: 1px solid var(--border-color);
-  padding: 2rem;
-  border-radius: 10px;
-  margin: 15px 0;
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    width: max-content;
 }
 
-.snippets-display{
-  border: 1px solid var(--border-color);
-  padding: 2rem;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-   
+.component-tools i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
-.snippets-display iframe{
-  width: 100%;
-  border: none;
-  border-radius: 10px;
+.component-display {
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
-.component-icons{
-  font-size: 1.4rem;
-  margin-right: 10px;
+.snippets-display {
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.snippets-display iframe {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.component-icons {
+    font-size: 1.4rem;
+    margin-right: 10px;
 }

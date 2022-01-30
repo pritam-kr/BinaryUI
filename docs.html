@@ -98,7 +98,6 @@
 
             <!--Start component container-->
             <main class="component-container">
-
                 <!--component alert start-->
                 <div class="component component-alert" id="alert">
                     <h1 class="large-headings component-title">Alerts</h1>
@@ -304,12 +303,12 @@
 
                             <div class="badge-container icon-badge">
                                 <i class="fab fa-facebook-square"></i>
-                                <span class="badge-icon-number  badge-status"> 4 </span>
+                                <span class="badge-icon-number badge-status"> 4 </span>
                             </div>
 
                             <div class="badge-container icon-badge">
                                 <i class="fas fa-shopping-cart"></i>
-                                <span class="badge-icon-number  badge-status"> 4 </span>
+                                <span class="badge-icon-number badge-status"> 4 </span>
                             </div>
                         </div>
                     </div>
@@ -317,11 +316,17 @@
                     <!--Display Code snippest to copy users -->
                     <div class="snippets-display">
                         <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2520avatar-ex-lagre%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fuser2.jpeg%2522%2520class%253D%2522img-responsive%2520img-rounded%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520status-online%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2520avatar-large%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fuser3.jpeg%2522%2520class%253D%2522img-responsive%2520img-rounded%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520status-offline%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2520avatar-medium%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fuser4.jpeg%2522%2520class%253D%2522img-responsive%2520img-rounded%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520status-away%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2520avatar-small%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Fuser5.jpeg%2522%2520class%253D%2522img-responsive%2520img-rounded%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520status-distrube%2522%253E%2520%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%250A%2520%253Cdiv%2520class%253D%2522badge-container%2520icon-badge%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-facebook-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-number%2520%2520badge-status%2522%253E%25204%2520%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2520icon-badge%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-icon-number%2520%2520badge-status%2522%253E%25204%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                            style="width: 100%; height: 267px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                            style="
+                  width: 100%;
+                  height: 267px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
-                    <h2 class="component-subtitle">Example of Text Badge </h2>
+                    <h2 class="component-subtitle">Example of Text Badge</h2>
 
                     <!--About component-->
                     <p class="paragraph about-component">
@@ -338,32 +343,44 @@
                         </div>
 
                         <div class="component-wrapper text-badge-wrapper">
-                            <h1 class="text-badge text-h1">This is heading one <span class="badge badge-h1">Neog</span>
+                            <h1 class="text-badge text-h1">
+                                This is heading one <span class="badge badge-h1">Neog</span>
                             </h1>
-                            <h2 class="text-badge text-h2">This is heading two <span class="badge badge-h2">Neog</span>
+                            <h2 class="text-badge text-h2">
+                                This is heading two <span class="badge badge-h2">Neog</span>
                             </h2>
-                            <h3 class="text-badge text-h3">This is heading three <span class="badge badge-h3">Neog</span></h3>
-                            <h4 class="text-badge text-h4">This is heading four <span class="badge badge-h5">Neog</span>
+                            <h3 class="text-badge text-h3">
+                                This is heading three <span class="badge badge-h3">Neog</span>
+                            </h3>
+                            <h4 class="text-badge text-h4">
+                                This is heading four <span class="badge badge-h5">Neog</span>
                             </h4>
-                            <h5 class="text-badge text-h5">This is heading five <span class="badge badge-h6">Neog</span>
+                            <h5 class="text-badge text-h5">
+                                This is heading five <span class="badge badge-h6">Neog</span>
                             </h5>
-                            <h6 class="text-badge text-h6">This is heading six <span class="badge badge-h6">Neog</span>
+                            <h6 class="text-badge text-h6">
+                                This is heading six <span class="badge badge-h6">Neog</span>
                             </h6>
-                            <p class="text-badge text-p">This is paragraph <span class="badge badge-p">Neog</span></p>
+                            <p class="text-badge text-p">
+                                This is paragraph <span class="badge badge-p">Neog</span>
+                            </p>
                         </div>
                     </div>
 
                     <!--Display Code snippest to copy users -->
                     <div class="snippets-display">
                         <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522text-badge%2520text-h1%2522%253E%2520Text%2520%253Cspan%2520class%253D%2522badge%2520badge-h1%2522%253ENeog%253C%252Fspan%253E%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522text-badge%2520text-h2%2522%253E%2520Text%2520%253Cspan%2520class%253D%2522badge%2520badge-h2%2522%253ENeog%253C%252Fspan%253E%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522text-badge%2520text-h3%2522%253E%2520Text%2520%253Cspan%2520class%253D%2522badge%2520badge-h3%2522%253ENeog%253C%252Fspan%253E%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522text-badge%2520text-h4%2522%253E%2520Text%2520%253Cspan%2520class%253D%2522badge%2520badge-h5%2522%253ENeog%253C%252Fspan%253E%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522text-badge%2520text-h5%2522%253E%2520Text%2520%253Cspan%2520class%253D%2522badge%2520badge-h6%2522%253ENeog%253C%252Fspan%253E%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522text-badge%2520text-h6%2522%253E%2520Text%2520%253Cspan%2520class%253D%2522badge%2520badge-h6%2522%253ENeog%253C%252Fspan%253E%253C%252Fh6%253E%250A%253Cp%2520class%253D%2522text-badge%2520text-p%2522%253E%2520Text%253Cspan%2520class%253D%2522badge%2520badge-p%2522%253ENeog%253C%252Fspan%253E%253C%252Fp%253E"
-                            style="width: 100%; height: 335px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                            style="
+                  width: 100%;
+                  height: 335px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-
                 </div>
                 <!--Component badges end-->
-
-
 
             </main>
             <!--End component container-->
