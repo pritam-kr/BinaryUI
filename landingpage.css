@@ -112,7 +112,7 @@ html {
 .installation-box2 {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
     /* overflow-y: scroll; */
 }
