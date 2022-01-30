@@ -1,3 +1,11 @@
+:root {
+    --badge-border: #fff;
+    --status-online: green;
+    --status-offline: red;
+    --status-away: yellow;
+    --status-distrub: rgb(117, 117, 117);
+}
+
 .component-badge {
     margin-top: 2em;
 }
@@ -20,27 +28,27 @@
     min-width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid var(--badge-border);
     right: 1.5em;
     bottom: 0.6em;
 }
 
 .status-online {
-    background-color: green;
+    background-color: var(--status-online);
 }
 
 .status-offline {
-    background-color: red;
+    background-color: var(--status-offline);
     right: 1em;
 }
 
 .status-away {
-    background-color: yellow;
+    background-color: var(--status-away);
     right: .3em;
 }
 
 .status-distrube {
-    background-color: rgb(117, 117, 117);
+    background-color: var(--status-distrub);
     right: -.3em;
 }
 
@@ -54,7 +62,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: var(--status-offline);
     color: #fff;
     right: -.8em;
     bottom: 1.9em;
