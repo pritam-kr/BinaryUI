@@ -2,9 +2,9 @@
     margin-top: 2em;
 }
 
-.avatar-wrappe{
+.avatar-wrapper{
     display: flex;
-     
+     flex-wrap: wrap;
     align-items: flex-end;
 }
 
