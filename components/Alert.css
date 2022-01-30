@@ -1,28 +1,27 @@
- .alert{
-    font-size: 1.4rem;
-    border: 0px solid var(--border-color);
-    padding: 0.8em;
-    margin: 10px 0 10px 0;
-    border-radius: 10px;
+ .alert {
+     font-size: 1.4rem;
+     border: 0px solid var(--border-color);
+     padding: 0.8em;
+     margin: 10px 0 10px 0;
+     border-radius: 10px;
  }
-
- .primary-alert{
-     background-color: #107fe0b2;
-    color: var(--headings-color);
+ 
+ .primary-alert {
+     background-color: var(--primary-color);
+     color: var(--headings-color);
  }
- .successfull-alert{
-    background-color: #84F1C9;
-    color: #068154;
+ 
+ .successfull-alert {
+     background-color: #84F1C9;
+     color: #068154;
  }
- .danger-alert{
-    background-color: #FCC5C5;
-    color: #a50f0f;
+ 
+ .danger-alert {
+     background-color: #FCC5C5;
+     color: #a50f0f;
  }
- .warning-alert{
+ 
+ .warning-alert {
      background-color: #FFE7C5;
      color: #aa6505;
  }
-
- 
-
- 

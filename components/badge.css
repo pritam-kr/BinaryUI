@@ -1,0 +1,112 @@
+.component-badge {
+    margin-top: 2em;
+}
+
+.badge-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.badge-container {
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+}
+
+.badge-status {
+    position: absolute;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    right: 1.5em;
+    bottom: 0.6em;
+}
+
+.status-online {
+    background-color: green;
+}
+
+.status-offline {
+    background-color: red;
+    right: 1em;
+}
+
+.status-away {
+    background-color: yellow;
+    right: .3em;
+}
+
+.status-distrube {
+    background-color: rgb(117, 117, 117);
+    right: -.3em;
+}
+
+.icon-badge i {
+    font-size: 3rem;
+    margin-left: 10px;
+    color: var(--headings-color);
+}
+
+.badge-icon-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    right: -.8em;
+    bottom: 1.9em;
+    line-height: 0;
+    min-width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+/*=========text badges ===============*/
+
+.text-badge {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.badge {
+    margin-left: 10px;
+    display: block;
+    background-color: var(--primary-color);
+    color: var(--body-background);
+    padding: 0.2em 1em;
+    border-radius: 10px;
+}
+
+.text-h1 {
+    font-size: 2.5rem;
+}
+
+.text-h2 {
+    font-size: 2rem;
+}
+
+.text-h3 {
+    font-size: 1.75rem;
+}
+
+.text-h4 {
+    font-size: 1.5rem;
+}
+
+.text-h5 {
+    font-size: 1.25rem;
+}
+
+.text-h6 {
+    font-size: 1rem;
+}
+
+.text-p {
+    font-size: 1rem;
+}
