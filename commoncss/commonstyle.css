@@ -7,6 +7,38 @@ h6 {
     text-transform: capitalize;
 }
 
+:root {
+    --sidebar-background: rgba(0, 0, 0, 0.034);
+    --primary-color: #107fe0;
+    --border-color: rgba(0, 0, 0, 0.123);
+    --link-color: rgba(0, 0, 0, 0.623);
+    --primary-hover: #0662b3;
+    --paragraph-color: rgba(53, 53, 53, 0.952);
+    --body-background: #F7F7F7;
+    --footer-background: rgba(0, 0, 0, 0.082);
+    --headings-color: #282828;
+    --box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+    --smooth-shadow: 0.9px 2.8px 4.2px rgba(0, 0, 0, 0.404), 2.2px 6.7px 5.3px rgba(0, 0, 0, 0.363), 4.1px 12.5px 10px rgba(0, 0, 0, 0.035), 7.4px 22.3px 17.9px rgba(0, 0, 0, 0.042), 13.8px 41.8px 33.4px rgba(0, 0, 0, 0.05), 33px 100px 80px rgba(0, 0, 0, 0.07);
+    /*=Component badge varibles==*/
+    --badge-border: #fff;
+    --status-online: green;
+    --status-offline: red;
+    --status-away: yellow;
+    --status-distrub: rgb(117, 117, 117);
+    /*=Component button varibles==*/
+    --btn-secondary: rgba(34, 34, 34, 0.329);
+    --secondary-hover: rgba(15, 15, 15, 0.479);
+    --btn-success: green;
+    --btn-success-hover: rgb(2, 109, 2);
+    --text-color: #F7F7F7;
+    --btn-danger: red;
+    --btn-danger-hover: rgb(197, 5, 5);
+    --btn-warning: rgb(184, 184, 38);
+    --btn-warning-hover: rgb(138, 138, 24);
+    --btn-dark: #282828;
+    --btn-dark-hover: #2e2b2b;
+}
+
 .paragraph {
     font-size: 1.5rem;
     font-family: "Open Sans", sans-serif;
@@ -30,7 +62,7 @@ h6 {
 }
 
 .btn-primary:hover {
-    background-color: var(--btn-hover);
+    background-color: var(--primary-hover);
 }
 
 .lists {

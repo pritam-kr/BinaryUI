@@ -34,50 +34,50 @@
 <body>
     <div class="docs-container">
         <!--Sidebar start-->
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
             <header class="sibebar-header">
                 <h3 class="logo-title">BinaryUI<sub class="version">v1.0</sub></h3>
             </header>
             <!--Sidebar component links-->
             <main class="sidebar-menu">
                 <ul>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="#alert" class="links components-links">Alert</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="#avatar" class="links components-links">Avatar</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="#badge" class="links components-links">Badge</a>
                     </li>
-                    <li class="lists">
-                        <a href="" class="links components-links">Button</a>
+                    <li class="lists" id="nav-list">
+                        <a href="#button" class="links components-links">Button</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Card</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Image</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Input</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Text Utilities</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Lists</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Modal</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Rating (for eCommerce)</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Toast/Notify/Snackbar</a>
                     </li>
-                    <li class="lists">
+                    <li class="lists" id="nav-list">
                         <a href="" class="links components-links">Simplified Grid layout</a>
                     </li>
                 </ul>
@@ -88,10 +88,13 @@
         <!--Mainbar start-->
         <div class="mainbar">
             <header class="topbar">
+                <!--Logo for phone devices-->
+                <h3 class="logo-mobile">BinaryUI<sub class="version">v1.0</sub></h3>
+
                 <ul>
                     <li class="lists">
                         <a href="#" target="_balnk" class="links"><i class="fab fa-github site-icon github-icon"></i>
-                            <i class="fas fa-bars site-icon hangburger-icon"></i></a>
+                            <i class="fas fa-bars hangburger-icon" id="hangburger-icon"></i></a>
                     </li>
                 </ul>
             </header>
@@ -382,6 +385,89 @@
                 </div>
                 <!--Component badges end-->
 
+                <!--Component buttons Start-->
+                <div class="component component-button" id="button">
+                    <h1 class="large-headings component-title">Buttons</h1>
+
+                    <!--About component-->
+                    <p class="paragraph about-component">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat incidunt vitae veniam iusto totam!
+                    </p>
+
+                    <h2 class="component-subtitle">Example of Buttons</h2>
+
+                    <!--About how to use this component-->
+                    <p class="paragraph component-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae inventore veritatis alias autem rem esse quas, dolorum ratione distinctio modi.
+                    </p>
+
+                    <!-- component Display-->
+                    <div class="component-display">
+                        <!--component extra things adon-->
+                        <div class="component-tools">
+                            <a href="#" target="_blank" class="links"><i class="fab fa-github site-icon"></i>
+                            </a>
+                            <a href="#" target="_blank" class="links"><i class="fas fa-globe-asia site-icon"></i></a>
+                        </div>
+
+                        <div class="component-wrapper button-wrapper">
+                            <button class="btn btn-primary">Primary</button>
+                            <button class="btn btn-secondary">Secondary</button>
+                            <button class="btn btn-primary-outline">Outline</button>
+                            <button class="btn btn-text"><span>Primary Text</span></button>
+                            <button class="btn btn-icon"><i class="fas fa-shopping-cart site-icon"></i> Cart</button>
+
+                            <button class="btn btn-success">Success</button>
+                            <button class="btn btn-danger">Danger</button>
+                            <button class="btn btn-warning">Warning</button>
+                            <button class="btn btn-bark">Dark</button>
+                            <button class="btn-floating"><i class="fas fa-plus"></i></button>
+                            <button class="btn-floating"><i class="fas fa-camera"></i></button>
+                            <button class="btn-floating"><i class="fas fa-comment"></i></button>
+                        </div>
+                    </div>
+
+                    <!--Display Code snippest to copy users -->
+                    <div class="snippets-display">
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EOutline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253E%253Cspan%253EPrimary%2520Text%253C%252Fspan%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520site-icon%2522%253E%253C%252Fi%253E%2520Cart%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-bark%2522%253EDark%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-floating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-floating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-camera%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-floating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-comment%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A"
+                            style="width: 100%; height: 267px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h2 class="component-subtitle">Example of outline Button</h2>
+
+                    <!--About component-->
+                    <p class="paragraph about-component">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat incidunt vitae veniam iusto totam!
+                    </p>
+
+                    <!-- component Display-->
+                    <div class="component-display">
+                        <!--component extra things adon-->
+                        <div class="component-tools">
+                            <a href="#" target="_blank" class="links"><i class="fab fa-github site-icon"></i>
+                            </a>
+                            <a href="#" target="_blank" class="links"><i class="fas fa-globe-asia site-icon"></i></a>
+                        </div>
+
+                        <div class="component-wrapper button-wrapper">
+                            <button class="btn btn-primary-outline">Primary</button>
+                            <button class="btn btn-secondary-outline">Secondary</button>
+                            <button class="btn btn-success-outline">Suscess</button>
+                            <button class="btn btn-danger-outline">Danger</button>
+                            <button class="btn btn-warning-outline">Warning</button>
+                        </div>
+                    </div>
+
+                    <!--Display Code snippest to copy users -->
+                    <div class="snippets-display">
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success-outline%2522%253ESuscess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger-outline%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning-outline%2522%253EWarning%253C%252Fbutton%253E%250A"
+                            style="width: 100%; height: 297px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+                <!--Component button end-->
+
             </main>
             <!--End component container-->
 
@@ -406,6 +492,8 @@
         </div>
         <!--Mainbar end-->
     </div>
+
+    <script src="docsjs/mobile-menu.js"></script>
 </body>
 
 </html>
