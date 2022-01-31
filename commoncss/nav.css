@@ -1,25 +1,24 @@
 /*======Nav====*/
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--border-color);
+    /* border-bottom: 1px solid var(--border-color); */
     padding: 1em 1.5em;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
 }
 
-.logo-title{
+.logo-title {
     color: var(--primary-color);
     font-size: 2.5rem;
-    
 }
 
 .nav-menu ul li {
     display: inline-block;
     margin: 0 1em 0 0;
-    
 }
-.nav-menu li a{
+
+.nav-menu li a {
     font-size: 1.5rem;
 }
