@@ -2,8 +2,6 @@
     margin-top: 2em;
 }
 
-.button-wrapper {}
-
 .button-wrapper .btn {
     margin: 0.2em;
     padding: 0.8em 1.8em;
@@ -79,10 +77,6 @@
 .btn-bark {
     background: var(--btn-dark);
     color: var(--text-color);
-}
-
-.btn-dark:hover {
-    background: var(--btn-dark-hover) !important;
 }
 
 .btn-floating {
