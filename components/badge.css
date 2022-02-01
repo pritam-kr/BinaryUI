@@ -9,6 +9,12 @@
      align-items: flex-end;
  }
  
+ @media screen and (max-width: 976px) {
+     .badge-wrapper .badge-container {
+         z-index: -1;
+     }
+ }
+ 
  .badge-container {
      border-radius: 50%;
      margin-right: 10px;

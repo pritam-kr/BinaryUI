@@ -87,7 +87,7 @@
     height: 50px;
     border: none;
     line-height: 0;
-    margin-left: 15px;
+    margin: 10px 0 10px 10px;
     cursor: pointer;
     box-shadow: var(--smooth-shadow);
 }
