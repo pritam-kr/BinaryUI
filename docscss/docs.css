@@ -1,4 +1,8 @@
 @import url(../components/CDN.css);
+
+/* @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css"); block-size: auto; 
+    max-inline-size: 100%;*/
+
 .docs-container {
     display: flex;
 }
@@ -80,10 +84,6 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: var(--box-shadow);
-    /* position: sticky;
-    right: 0;
-    left: 0;
-    top: 0; */
 }
 
 .topbar .logo-mobile {
@@ -119,6 +119,13 @@
 }
 
 @media screen and (max-width: 976px) {
+    .topbar {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-color: var(--text-color)
+    }
     .topbar .hangburger-icon {
         display: flex;
     }
@@ -143,6 +150,15 @@
 .component-container {
     padding: 1em 1.5em;
     margin: 5px;
+}
+
+
+/*===for mobile component container menu===*/
+
+@media screen and (max-width: 976px) {
+    .component-container {
+        margin-top: 6em;
+    }
 }
 
 .component {
@@ -201,6 +217,15 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+
+/*===for mobile component container menu===*/
+
+@media screen and (max-width: 976px) {
+    .snippets-display iframe {
+        z-index: -1;
+    }
 }
 
 .snippets-display iframe {
