@@ -1,0 +1,85 @@
+.input-row {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-label {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--headings-color);
+    /* margin: 0.5em 0; */
+}
+
+.input {
+    width: 100%;
+    padding: 1em 0.8em;
+    margin: 0.3em .5em 0.3em 0;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline-color: var(--primary-color);
+}
+
+.seconday-input:focus {
+    outline-color: var(--secodany-input-outline-color);
+}
+
+.reqired {
+    color: var(--status-offline);
+}
+
+.textarea-input {
+    height: 100px;
+}
+
+.radio-input,
+.checkbox-input {
+    cursor: pointer;
+    width: 5%;
+    font-size: 3rem;
+}
+
+.form {
+    background-color: var(--body-background);
+    border: 1px solid var(--border-color);
+    width: 350px;
+    border-radius: 5px;
+    padding: 1.5em;
+    box-shadow: var(--box-shadow);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.form-footer p {
+    font-size: small;
+}
+
+.btn-submit,
+.btn-login {
+    width: 100%;
+}
+
+.checkbox-text {
+    font-size: smaller;
+    margin-left: -10px;
+    color: var(--secondary-color);
+}
+
+.error-style{
+    color: var(--btn-danger);
+}

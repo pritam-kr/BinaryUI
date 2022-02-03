@@ -5,8 +5,6 @@
         word-wrap: break-word;
     }
     
-    :root {}
-    
     body {
         font-family: 'Poppins', sans-serif;
         background-color: var(--body-background);
