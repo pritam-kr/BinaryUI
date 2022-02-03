@@ -24,3 +24,5 @@ navList.forEach((eachList) => {
         sideBar.classList.remove('active-mobile')
     })
 })
+
+ 

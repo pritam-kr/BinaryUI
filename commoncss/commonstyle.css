@@ -7,6 +7,11 @@ h6 {
     text-transform: capitalize;
 }
 
+::placeholder {
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+
 :root {
     --sidebar-background: #e7e7e7;
     --primary-color: #107fe0;
@@ -41,6 +46,10 @@ h6 {
     --paragraph-font: "Open Sans", sans-serif;
     /*====card variable */
     --overlay-background: rgba(161, 160, 160, 0.877);
+    /*=====*/
+    --input-border: rgba(0, 0, 0, 0.315);
+    --secondary-color: rgba(17, 17, 17, 0.705);
+    --secodany-input-outline-color: rgba(17, 17, 17, 0.705);
 }
 
 .component-classes {
@@ -91,6 +100,11 @@ h6 {
 
 .large-headings {
     font-size: 2.2rem;
+    color: #282828;
+}
+
+.small-heading {
+    font-size: 1.5rem;
     color: #282828;
 }
 
