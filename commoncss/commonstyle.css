@@ -43,6 +43,10 @@ h6 {
     --overlay-background: rgba(161, 160, 160, 0.877);
 }
 
+.component-classes {
+    color: var(--primary-color);
+}
+
 .paragraph {
     font-size: 1.5rem;
     font-family: "Open Sans", sans-serif;

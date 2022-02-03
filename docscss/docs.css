@@ -163,7 +163,7 @@
 }
 
 .component {
-    padding: 0 1.5em 2em 0;
+    padding: 0 0 2em 0;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -181,6 +181,7 @@
 
 .component-description {
     margin-bottom: 15px;
+    font-size: 1.4rem;
 }
 
 .about-component {
