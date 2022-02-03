@@ -1,0 +1,46 @@
+ .text-left{
+     text-align: left;
+ }
+
+ .text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.alignment-wrapper p{
+    margin-bottom: 0.5em;
+}
+
+.text-xl{
+    font-size: x-large;
+}
+
+.text-lg{
+    font-size: large;
+}
+
+.text-md{
+    font-size: medium;
+}
+.text-sm{
+    font-size: small;
+}
+.text-xm{
+    font-size: x-small;
+}
+
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+.text-capatialize{
+    text-transform: capitalize;
+}
