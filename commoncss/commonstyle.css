@@ -8,7 +8,7 @@ h6 {
 }
 
 :root {
-    --sidebar-background: rgba(0, 0, 0, 0.034);
+    --sidebar-background: #e7e7e7;
     --primary-color: #107fe0;
     --border-color: rgba(0, 0, 0, 0.123);
     --link-color: rgba(0, 0, 0, 0.623);
@@ -37,6 +37,10 @@ h6 {
     --btn-warning-hover: rgb(138, 138, 24);
     --btn-dark: #282828;
     --btn-dark-hover: #2e2b2b;
+    --card-display-background: #EDEDED;
+    --paragraph-font: "Open Sans", sans-serif;
+    /*====card variable */
+    --overlay-background: rgba(161, 160, 160, 0.877);
 }
 
 .paragraph {

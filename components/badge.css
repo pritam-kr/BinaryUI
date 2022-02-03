@@ -11,7 +11,7 @@
  
  @media screen and (max-width: 976px) {
      .badge-wrapper .badge-container {
-         z-index: -1;
+         z-index: 0;
      }
  }
  

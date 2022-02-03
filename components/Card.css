@@ -1,0 +1,251 @@
+.component-card {
+    margin-top: 2em;
+}
+
+.card-icons {
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-box {
+    border-radius: 5px;
+    background: var(--text-color);
+    max-width: 350px;
+    height: max-content;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+
+/*basic text card withour icon and dissmiss */
+
+.text-cardbox .dismiss-icon {
+    display: none;
+}
+
+.text-cardbox-dismiss .text-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    color: var(--headings-color);
+}
+
+.card-text {
+    font-size: 1.3rem;
+    font-family: var(--paragraph-font);
+    line-height: 1.7rem;
+    color: var(--paragraph-color);
+    margin-top: 10px;
+}
+
+
+/* card with images */
+
+.images-card {
+    background-color: var(--text-color);
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-content {
+    padding: 0.8em;
+}
+
+.card-footer {
+    padding: 1em 0.6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-footer {
+    padding: 0.5em 0.6em;
+    font-size: small;
+}
+
+.card-footer-icons-wrapper {
+    display: flex;
+}
+
+.footer-icon {
+    margin: 0 0.9em 0 0;
+}
+
+
+/*====header at top *===== */
+
+.header-at-top {
+    order: 1;
+}
+
+.img-at-middile {
+    height: 250px;
+    border-radius: 0;
+    order: 2;
+}
+
+.footer-at-bottom {
+    order: 3;
+}
+
+
+/*====card with only button */
+
+.vertical-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-OFB .card-footer-icons-wrapper {
+    display: none;
+}
+
+.card-OFI .card-footer-buttons {
+    display: none;
+}
+
+.card-OFI .card-footer {
+    justify-content: flex-end;
+}
+
+
+/*==========text-overlay-card============*/
+
+.overlay-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-card-overlay {
+    position: relative;
+}
+
+.overlay-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var( --overlay-background);
+}
+
+.overlay-text span {
+    color: var(--paragraph-color);
+    background-color: var(--sidebar-background);
+    padding: 0.2em 0.8em;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+
+/*====badge card ====*/
+
+.badge-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-card {
+    position: relative;
+}
+
+.badge-card img {
+    height: 300px;
+}
+
+.badge-card .card-content {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card-price {
+    font-size: bold;
+    font-size: 2.6rem;
+}
+
+.move-cart-buttons {
+    width: 100%;
+}
+
+.btn-move-cart {
+    width: 100%;
+}
+
+.new-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.new-badge .badge-h6 {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn-danger);
+    cursor: pointer;
+}
+
+
+/*=============horizontal cart-card ===========*/
+
+.horizontal-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-cart-card {
+    max-width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal-cart-card img {
+    height: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.horizontal-cart-card .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horizontal-cart-card .move-cart-buttons button {
+    margin-bottom: 10px;
+}
