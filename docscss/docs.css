@@ -236,7 +236,7 @@
 
 @media screen and (max-width: 976px) {
     .snippets-display iframe {
-        z-index: -1;
+        z-index: 0;
     }
 }
 
