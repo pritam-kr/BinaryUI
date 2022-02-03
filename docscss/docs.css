@@ -115,7 +115,7 @@
     bottom: 0;
     left: 0;
     box-shadow: var(--box-shadow);
-    z-index: 1;
+    z-index: 999;
 }
 
 @media screen and (max-width: 976px) {
@@ -124,7 +124,8 @@
         right: 0;
         left: 0;
         top: 0;
-        background-color: var(--text-color)
+        background-color: var(--text-color);
+        z-index: 888;
     }
     .topbar .hangburger-icon {
         display: flex;
@@ -203,10 +204,11 @@
 }
 
 .component-display {
-    border: 1px solid var(--border-color);
+    /* border: 1px solid var(--border-color); */
     padding: 2rem;
     border-radius: 10px;
     margin: 15px 0;
+    background: var(--card-display-background);
 }
 
 .snippets-display {
@@ -217,6 +219,15 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 976px) {
+    .component-display {
+        padding: 1rem;
+    }
+    .snippets-display {
+        padding: 1rem;
+    }
 }
 
 
