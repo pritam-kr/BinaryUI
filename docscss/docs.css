@@ -162,9 +162,12 @@
     }
 }
 
+
+
 .component {
     padding: 0 0 2em 0;
     border-bottom: 1px solid var(--border-color);
+    margin-top: 2em;
 }
 
 .component-title {

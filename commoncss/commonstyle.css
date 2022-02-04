@@ -50,6 +50,19 @@ h6 {
     --input-border: rgba(0, 0, 0, 0.315);
     --secondary-color: rgba(17, 17, 17, 0.705);
     --secodany-input-outline-color: rgba(17, 17, 17, 0.705);
+
+}
+
+.sm-rounded{
+    border-radius: 5px;
+}
+
+.md-rounded{
+    border-radius: 10px;
+}
+
+.lg-rounded{
+    border-radius: 15px;
 }
 
 .component-classes {
