@@ -50,12 +50,11 @@ h6 {
     --input-border: rgba(0, 0, 0, 0.315);
     --secondary-color: rgba(17, 17, 17, 0.705);
     --secodany-input-outline-color: rgba(17, 17, 17, 0.705);
-
+    --modal-background: #1D1E22;
 }
 
 .sm-rounded{
     border-radius: 5px;
-     
 }
 
 .md-rounded{

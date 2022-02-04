@@ -183,8 +183,8 @@
 }
 
 .component-description {
-    margin-bottom: 15px;
-    font-size: 1.4rem;
+    margin-bottom: 1.5em;
+    font-size: 1.5rem;
 }
 
 .about-component {
@@ -247,6 +247,7 @@
     width: 100%;
     border: none;
     border-radius: 10px;
+    z-index: 0;
 }
 
 .component-icons {

@@ -1591,43 +1591,105 @@
                     </div>
 
                     <!--Display Code snippest to copy users -->
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navigation%2520sm-rounded%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522nav-left%2520logo%2522%253E%250A%2520%2520%2520%2520%2520%2509%253Ch2%2520class%253D%2522nav-logo%2522%253EBinaryUI%253C%252Fh2%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-center%2520searchbar%2522%253E%250A%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522search%2522%2520class%253D%2522input%2520input-search%2522%2520placeholder%253D%2522Search%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522nav-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520login-button%2520text-md%2522%253ELogin%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520icon-badge%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-number%2520%2520badge-status%2522%253E%25204%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-number%2520%2520badge-status%2522%253E%25204%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
-                        style="width: 100%; height: 267px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                    <div class="snippets-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navigation%2520sm-rounded%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522nav-left%2520logo%2522%253E%250A%2520%2520%2520%2520%2520%2509%253Ch2%2520class%253D%2522nav-logo%2522%253EBinaryUI%253C%252Fh2%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-center%2520searchbar%2522%253E%250A%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522search%2522%2520class%253D%2522input%2520input-search%2522%2520placeholder%253D%2522Search%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522nav-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520login-button%2520text-md%2522%253ELogin%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520icon-badge%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-number%2520%2520badge-status%2522%253E%25204%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-number%2520%2520badge-status%2522%253E%25204%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 267px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
                 </div>
                 <!-- Component Navigation end-->
-             </main>
-        <!--End component container-->
 
-        <!--Footer Start-->
-        <footer class="footer ">
-            <p class="paragraph ">Code By Pritam</p>
-            <ul>
-                <li class="lists ">
-                    <a href=" " target="_blank " class="links "><i class="fab fa-twitter "></i></a>
-                </li>
-                <li class="lists ">
-                    <a href=" " target="_blank " class="links "><i class="fab fa-linkedin "></i></a>
-                </li>
-                <li class="lists ">
-                    <a href=" " target="_blank " class="links "><i class="fab fa-instagram "></i></a>
-                </li>
-                <li class="lists ">
-                    <a href=" " target="_blank " class="links "><i class="fab fa-github "></i></a>
-                </li>
-            </ul>
-        </footer>
-        <!--Footer end-->
-    </div>
-    <!--Mainbar end-->
+                <!-- Component Modal Start-->
+                <div class="component component-navigation" id="Modal">
+                    <h1 class="large-headings component-title">Modal</h1>
+
+                    <!--About component-->
+                    <p class="paragraph about-component">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat incidunt vitae
+                        veniam iusto totam!
+                    </p>
+
+                    <h2 class="component-subtitle">Example of Modal</h2>
+
+                    <!--About how to use this component-->
+                    <p class="paragraph component-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae inventore veritatis alias
+                        autem rem esse quas, dolorum ratione distinctio modi.
+                    </p>
+
+                    <!-- component Display-->
+                    <div class="component-display">
+                        <!--component extra things adon-->
+                        <div class="component-tools">
+                            <a href="#" target="_blank" class="links"><i class="fab fa-github site-icon"></i>
+                            </a>
+                            <a href="#" target="_blank" class="links"><i class="fas fa-globe-asia site-icon"></i></a>
+                        </div>
+
+                        <div class="component-wrapper  modal-wrapper">
+                            <button class="btn btn-primary btn-modal-active" id="btn-modal-active">Live Demo</button>
+                            <div class="modal-box" id="modal-box">
+                                <div class="modal sm-rounded">
+                                    <i class="fas fa-exclamation-triangle site-icon text-lg"></i>
+                                    <p class="modal-text text-md">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                        elit. Praesentium maxime nulla pariatur quo animi harum nisi, qui molestias
+                                        reiciendis voluptates.
+                                    </p>
+                                    <div class="modal-btn-container">
+                                        <button class="btn btn-primary btn-modal-login">Login</button> <button
+                                            class="btn btn-secondary btn-modal-close" id="modal-close">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Display Code snippest to copy users -->
+                    <div class="snippets-display">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-modal-active%2522%2520id%253D%2522btn-modal-active%2522%253ELive%2520Demo%253C%252Fbutton%253E%250A%250A%2520%253Cdiv%2520class%253D%2522modal-box%2522%2520id%253D%2522modal-box%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2520sm-rounded%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520site-icon%2520text-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-text%2520text-md%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-modal-login%2522%253ELogin%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-modal-close%2522%2520id%253D%2522modal-close%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                            style="width: 100%; height: 267PX; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+                <!-- Component Modal End-->
+
+            </main>
+            <!--End component container-->
+
+            <!--Footer Start-->
+            <footer class="footer ">
+                <p class="paragraph ">Code By Pritam</p>
+                <ul>
+                    <li class="lists ">
+                        <a href=" " target="_blank " class="links "><i class="fab fa-twitter "></i></a>
+                    </li>
+                    <li class="lists ">
+                        <a href=" " target="_blank " class="links "><i class="fab fa-linkedin "></i></a>
+                    </li>
+                    <li class="lists ">
+                        <a href=" " target="_blank " class="links "><i class="fab fa-instagram "></i></a>
+                    </li>
+                    <li class="lists ">
+                        <a href=" " target="_blank " class="links "><i class="fab fa-github "></i></a>
+                    </li>
+                </ul>
+            </footer>
+            <!--Footer end-->
+        </div>
+        <!--Mainbar end-->
     </div>
 
 
     <script src="docsjs/mobile-menu.js "></script>
     <script src="docsjs/login.js"></script>
     <script src="docsjs/errorstyle.js"></script>
+    <script src="/docsjs/modal.js"></script>
 
 </body>
 
