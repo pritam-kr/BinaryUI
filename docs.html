@@ -1531,7 +1531,7 @@
 
                 </div>
                 <!-- Component List End-->
-                -
+
                 <!-- Component Navigation Start-->
                 <div class="component component-navigation" id="Navigation">
                     <h1 class="large-headings component-title">Navigation</h1>
@@ -1664,7 +1664,8 @@
 
                     <!--About how to use this component-->
                     <p class="paragraph component-description">
-                        It is a static user Rating component. You can use this component by adding below mentiod code. Here class <span class="component-classes">rating-star</span> applies some styling to it.
+                        It is a static user Rating component. You can use this component by adding below mentiod code.
+                        Here class <span class="component-classes">rating-star</span> applies some styling to it.
                     </p>
 
                     <!-- component Display-->
@@ -1693,6 +1694,58 @@
                     </div>
                 </div>
                 <!-- Component Rating End-->
+
+                <!-- Component Toast Start-->
+                <div class="component component-toast" id="Toast">
+                    <h1 class="large-headings component-title">Toast</h1>
+
+                    <!--About component-->
+                    <p class="paragraph about-component">
+                        Rating component use in review sections of products. You can see on many e-commerce websites.
+                    </p>
+
+                    <h2 class="component-subtitle">Example of Toast</h2>
+
+                    <!--About how to use this component-->
+                    <p class="paragraph component-description">
+                        It is a static user Rating component. You can use this component by adding below mentiod code.
+                        Here class <span class="component-classes">rating-star</span> applies some styling to it.
+                    </p>
+
+                    <!-- component Display-->
+                    <div class="component-display">
+                        <!--component extra things adon-->
+                        <div class="component-tools">
+                            <a href="#" target="_blank" class="links"><i class="fab fa-github site-icon"></i>
+                            </a>
+                            <a href="#" target="_blank" class="links"><i class="fas fa-globe-asia site-icon"></i></a>
+                        </div>
+
+                        <div class="component-wrapper column-center toast-wrapper">
+                            <div class="toast text-lg sm-rounded space-between secondary-toast">Successfully Added <i class="fas fa-times-circle component-icons"></i></div>
+
+                            <button class="btn btn-primary btn-toast" id="btn-toast">Live Demo</button>
+                            <div class="toast text-lg sm-rounded space-between primary-toast" id="primary-toast">Please try again letter <i class="fas fa-times-circle component-icons"></i></div>
+                        </div>
+                    </div>
+
+                    <!--Display Code snippest to copy users -->
+                    <div class="snippets-display column-center">
+                        <embed
+                            src="https://carbon.now.sh/embed?bg=rgba%28247%2C247%2C247%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-toast%2522%2520id%253D%2522btn-toast%2522%253ELive%2520Demo%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522toast%2520text-lg%2520sm-rounded%2520space-between%2520primary-toast%2522%2520id%253D%2522primary-toast%2522%253E%250A%2520%2520%2520Please%2520try%2520again%2520letter%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520component-icons%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                            style="width: 100%; height: 185px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </embed>
+                        <!--javaScript code-->
+                        <h2 class="snippet-heading">JavaScript</h2>
+                        <embed
+                            src="https://carbon.now.sh/embed?bg=rgba%28247%2C247%2C247%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=const%2520primaryToast%2520%253D%2520document.querySelector%28%2522.primary-toast%2522%29%250Aconst%2520btnToast%2520%253D%2520document.querySelector%28%2522%2523btn-toast%2522%29%250A%250AbtnToast.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520primaryToast.classList.add%28%2522active-toast%2522%29%250A%250A%2520%2520%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520primaryToast.classList.remove%28%2522active-toast%2522%29%250A%2520%2520%2520%2520%257D%252C%25203000%29%250A%257D%29%250A"
+                            style="width: 100%; height: 291px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </embed>
+                    </div>
+                </div>
+                <!-- Component Toast End-->
 
             </main>
             <!--End component container-->
@@ -1725,6 +1778,7 @@
     <script src="docsjs/login.js"></script>
     <script src="docsjs/errorstyle.js"></script>
     <script src="/docsjs/modal.js"></script>
+    <script src="/docsjs/toast.js"></script>
 
 </body>
 
