@@ -1,0 +1,24 @@
+.toast{
+    width: 25rem;
+    border: 1px solid var(--border-color);
+    padding: 0.5em;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    margin-bottom: 0.5em;
+}
+.toast i{
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+ 
+.primary-toast{
+    position: fixed;
+    bottom: -5rem;
+    left: 1rem;
+    background-color: var(--bg-toast);
+    transition: 0.3s all;
+}
+.active-toast{
+    bottom: 1rem;
+}
