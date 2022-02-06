@@ -177,16 +177,17 @@
 .component-subtitle {
     font-size: 2rem;
     margin-bottom: 15px;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
 }
 
 .component-description {
     margin-bottom: 1.5em;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 1.7em;
 }
 
 .about-component {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 400;
     margin-bottom: 2em;
 }
