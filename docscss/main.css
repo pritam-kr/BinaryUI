@@ -3,6 +3,22 @@
 @import url('../commoncss/scrollbar.css');
 @import url('../commoncss/footer.css');
 @import url('../docscss/docs.css');
-@import url('../landingpage.css');
 
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-background);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 70%;
+}
+ 
