@@ -143,11 +143,12 @@ h6 {
 
 .code-example {
     width: 100%;
-    max-height: 25rem;
+    height: 250px;
     border: 0;
     border-radius: 10px;
     transform: scale(1); 
-    overflow:hidden;
+    overflow:scroll;
+     
 }
 
 .snippet-heading{
