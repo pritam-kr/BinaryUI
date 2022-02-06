@@ -28,7 +28,7 @@
 }
 
 
-/*basic text card withour icon and dissmiss */
+/*basic text card without icon and dismiss */
 
 .text-cardbox .dismiss-icon {
     display: none;
@@ -42,6 +42,10 @@
 
 .card-title {
     color: var(--headings-color);
+}
+
+.card-author{
+    color: var(--paragraph-color);
 }
 
 .card-text {

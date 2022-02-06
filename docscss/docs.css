@@ -106,7 +106,7 @@
 }
 
 
-/*==hangburger mobile menu active classs */
+/*==hamburger mobile menu active classs */
 
 .active-mobile {
     background-color: var(--text-color);
@@ -150,7 +150,6 @@
 
 .component-container {
     padding: 1em 1.5em;
-    margin: 5px;
 }
 
 
@@ -173,13 +172,12 @@
 .component-title {
     font-size: 2.8rem;
     margin-bottom: 15px;
-    /* width: fit-content;
-  border-bottom: 1px solid var(--border-color); */
 }
 
 .component-subtitle {
     font-size: 2rem;
     margin-bottom: 15px;
+    margin-top: 1.5em;
 }
 
 .component-description {

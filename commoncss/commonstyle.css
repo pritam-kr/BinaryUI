@@ -141,12 +141,14 @@ h6 {
 
 /* .subheadings {} */
 
-.code-snippet {
+.code-example {
     width: 100%;
-    height: auto;
+    height: 250px;
     border: 0;
     border-radius: 10px;
-    word-wrap: break-word;
+    transform: scale(1); 
+    overflow:scroll;
+     
 }
 
 .snippet-heading{

@@ -1,0 +1,34 @@
+.grid-2-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.grid-item{
+    /* height: 20rem; */
+    padding: 0.5em;
+}
+
+.grid-img{
+     height: 100%;
+}
+
+.grid-3-wrapper{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+}
+
+.grid-3-wrapper .grid-item{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 876px) {
+    .grid-wrapper{
+        grid-template-columns: 100%;
+    }
+    .grid-3-wrapper{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+    }
+}
