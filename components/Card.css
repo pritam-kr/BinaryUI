@@ -44,6 +44,10 @@
     color: var(--headings-color);
 }
 
+.card-author{
+    color: var(--paragraph-color);
+}
+
 .card-text {
     font-size: 1.3rem;
     font-family: var(--paragraph-font);
