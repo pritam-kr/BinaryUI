@@ -6,7 +6,7 @@
 ### Stack Used
 - HTML, CSS, JavaScript
 
-### Component List (All component should github page link and hosted page link)
+### Component List 
 
 ### Alerts 
 -  Primary Alerts
