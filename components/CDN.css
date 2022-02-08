@@ -13,3 +13,21 @@
 @import url(../components/Rating.css);
 @import url(../components/Toast.css);
 @import url(../components/Grid.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-background);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 70%;
+}
+ 
