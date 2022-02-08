@@ -1,8 +1,4 @@
-@import url('../commoncss/nav.css');
-@import url('../commoncss/commonstyle.css');
-@import url('../commoncss/footer.css');
-@import url('../docscss/docs.css');
-
+ @import url('../docscss/docs.css');
 
 * {
     padding: 0;
