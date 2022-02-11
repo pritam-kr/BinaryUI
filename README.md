@@ -1,29 +1,28 @@
 
-
-## BinaryUI 
-### BinaryUI is the Best open source free framework to build attractive UI design. You'll get best User friendly CSS component.
+# BinaryUI 
+### BinaryUI is the Best open source free framework to build attractive UI design. You'll get best User friendly CSS component.<br><br>
 
 ### Stack Used
-- HTML, CSS, JavaScript
+- HTML, CSS, JavaScript <br><br>
 
-### Component List 
+# Component List 
 
-### Alerts 
+### [Alerts](https://binary-ui.netlify.app/docs.html#alert)
 -  Primary Alerts
 -  Successful Alert
 -  Danger Alert
 -  Warning Alert
 
-### Avatar
+### [Avatar](https://binary-ui.netlify.app/docs.html#avatar)
 - Image Avatar
 - Text Avatar
 
-### Badges
+### [Badges](https://binary-ui.netlify.app/docs.html#badge)
 - Icon Badges
 - Text Badges
 - Avatar Badges
 
-### Buttons
+### [Buttons](https://binary-ui.netlify.app/docs.html#button)
 - Primary Buttons
 - Secondary Button
 - Outline Button
@@ -32,7 +31,7 @@
 - Floating Button
 - Button With Icon
 
-### Cards
+### [Cards](https://binary-ui.netlify.app/docs.html#card)
 - Text Cards
 - Text Card with Dismiss
 - Vertical Cards 
@@ -41,11 +40,11 @@
 - Vertical Card with Badge
 - Horizontal Card
 
-### Image
+### [Image](https://binary-ui.netlify.app/docs.html#image)
 - Responsive Image
 - Rounded Image
 
-### Inputs
+### [Inputs](https://binary-ui.netlify.app/docs.html#input)
 - Primary Input
 - Secondary Input
 - Disabled Input
@@ -55,26 +54,29 @@
 - Error Style *
 - Radio
 - Checkbox
-- Validation With Signup
+- Validation With Sign up
 - Validation With Login
 
-### Text Utilities
+### [Text Utilities](https://binary-ui.netlify.app/docs.html#Text-utilities)
 - Headings
 - Text Alignment
 - Text Sizes
 - Text Transform
 
-### Lists
+### [Lists](https://binary-ui.netlify.app/docs.html#List)
 - Ordered List 
 - Unordered List
 - Stacked List (Notification Page)
 - Spaced List
 
-### Navigation
-### Modal
-### Rating Star
-### Toast
+### [Navigation](https://binary-ui.netlify.app/docs.html#Navigation)
+### [Modal](https://binary-ui.netlify.app/docs.html#Modal)
+### [Rating Star](https://binary-ui.netlify.app/docs.html#Rating)
+### [Toast](https://binary-ui.netlify.app/docs.html#Toast)
 
-### Grid
+### [Grid](https://binary-ui.netlify.app/docs.html#Grid)
 - Two Items In A Grid
-- Three Items In A Grid
+- Three Items In A Grid<br><br>
+# Demo
+
+![Demo](/assets/demo.gif)
