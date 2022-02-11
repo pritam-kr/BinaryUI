@@ -6,6 +6,8 @@
 - HTML
 - Vanilla CSS
 - Vanilla JavaScript <br><br>
+# Demo
+![Demo](/assets/demo.gif)<br><br>
 
 ## Installation<br>
 To Get styled component, you have put these two links inside head tag of your web page.<br>
@@ -87,6 +89,5 @@ To Get styled component, you have put these two links inside head tag of your we
 ### [Grid](https://binary-ui.netlify.app/docs.html#Grid)
 - Two Items In A Grid
 - Three Items In A Grid<br><br>
-# Demo
 
-![Demo](/assets/demo.gif)
+
