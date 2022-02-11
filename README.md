@@ -2,8 +2,18 @@
 # BinaryUI 
 ### BinaryUI is the Best open source free framework to build attractive UI design. You'll get best User friendly CSS component.<br><br>
 
-### Stack Used
-- HTML, CSS, JavaScript <br><br>
+## Stack Used
+- HTML
+- Vanila CSS
+- Vanila JavaScript <br><br>
+
+## Installation<br>
+To Get styled component, you have put these two links inside head tag of your web page.<br>
+```html
+<link rel="stylesheet" href="https://binary-ui.netlify.app/components/CDN.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+```
 
 # Component List 
 
