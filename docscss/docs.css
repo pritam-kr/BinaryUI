@@ -51,7 +51,7 @@
 
 .sidebar-menu .lists:hover {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.096);
+  background-color: var(--sidebar-list-hover);
   border-radius: 5px;
   margin-left: 5px;
 }

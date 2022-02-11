@@ -1,13 +1,11 @@
-const hangburgerMenu = document.querySelector('#hangburger-icon')
+const hamburgerMenu = document.querySelector('#hamburger-icon')
 
 const sideBar = document.querySelector('#sidebar')
 
 const navList = document.querySelectorAll('#nav-list')
 
-hangburgerMenu.addEventListener('click', () => {
+hamburgerMenu.addEventListener('click', () => {
     const mediaQuery = window.matchMedia('(max-width: 976px)')
-    console.log(mediaQuery)
-
 
     if (mediaQuery.matches) {
         // Then trigger an alert
@@ -24,5 +22,3 @@ navList.forEach((eachList) => {
         sideBar.classList.remove('active-mobile')
     })
 })
-
- 

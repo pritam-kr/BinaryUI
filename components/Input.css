@@ -27,11 +27,11 @@
     outline-color: var(--primary-color);
 }
 
-.seconday-input:focus {
-    outline-color: var(--secodany-input-outline-color);
+.secondary-input:focus {
+    outline-color: var(--secondary-input-outline-color);
 }
 
-.reqired {
+.required {
     color: var(--status-offline);
 }
 
