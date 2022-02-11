@@ -1,4 +1,4 @@
-.component-text-utilites{
+.component-text-utilities{
     margin-top: 2em;
 } 
  .text-left{
@@ -44,6 +44,6 @@
     text-transform: lowercase;
 }
 
-.text-capatialize{
+.text-capitalize{
     text-transform: capitalize;
 }
