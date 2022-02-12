@@ -253,3 +253,15 @@
 .horizontal-cart-card .move-cart-buttons button {
     margin-bottom: 10px;
 }
+
+
+/*========offer badge with card==========*/
+
+.offer-badge{
+    left: 0;
+    
+}
+
+.offer-badge .badge-h6{
+    background-color: var(--btn-success);
+}
