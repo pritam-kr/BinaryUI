@@ -13,6 +13,7 @@
 @import url(../components/Rating.css);
 @import url(../components/Toast.css);
 @import url(../components/Grid.css);
+@import url(../components/Slider.css);
 
 * {
     padding: 0;
