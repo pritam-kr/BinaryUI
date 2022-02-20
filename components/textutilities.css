@@ -47,3 +47,16 @@
 .text-capitalize{
     text-transform: capitalize;
 }
+
+.primary-text{
+    color: var(--primary-color);
+
+}
+
+.secondary-text{
+    color: var(--secondary-color);
+}
+
+.grey-text{
+    color: var(--grey-text);
+}
